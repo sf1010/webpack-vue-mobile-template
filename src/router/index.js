@@ -14,6 +14,14 @@ const router = new VueRouter({
         title: '主页',
       },
     },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('@/pages/login'),
+      meta: {
+        title: '登录',
+      },
+    },
   ],
 });
 
