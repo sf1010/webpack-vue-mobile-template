@@ -20,6 +20,9 @@ npm run build
 ## 项目结构
 ~~~
 ├─build                       webpack编译配置文件目录
+│  ├─webpack.base.config.js   webpack基础配置文件
+│  ├─webpack.dev.config.js    webpack开发配置文件
+│  └─webpack.prod.config.js   webpack生产配置文件
 ├─dist                        build完成生成的目录
 ├─src                         前端代码目录
 │  ├─assets                   静态资源目录
