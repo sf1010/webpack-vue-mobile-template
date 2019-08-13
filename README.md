@@ -42,7 +42,7 @@ npm run build
 │  ├─services                 请求api方法目录
 │  ├─store                    vuex目录
 │  │  ├─modules               不同模块的store管理目录
-│  │  │  ├─user.js             user模块的store（示例）
+│  │  │  ├─user.js            user模块的store（示例）
 │  │  │  └─index.js           汇总导出不同模块的store
 │  │  ├─getters.js            vuex的getters
 │  │  └─index.js              实例化vuex文件
