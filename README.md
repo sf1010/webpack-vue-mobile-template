@@ -2,14 +2,14 @@
 基于webpack4构建的vue移动端模板
 
 ## 使用方法
-~~~
+```
 git clone git@github.com:sf1010/webpack-vue-mobile-template.git
 cd webpack-vue-mobile-template
 npm install
 npm run dev
 or
 npm run build
-~~~
+```
 
 ## 使用框架
 - [vue全家桶](https://cn.vuejs.org)
@@ -18,7 +18,7 @@ npm run build
 - [normalize](http://necolas.github.io/normalize.css/)
 
 ## 项目结构
-~~~
+```
 ├─build                       webpack编译配置文件目录
 │  ├─webpack.base.config.js   webpack基础配置文件
 │  ├─webpack.dev.config.js    webpack开发配置文件
@@ -51,7 +51,7 @@ npm run build
 │  │  └─request.js            请求拦截器
 │  ├─view                     index.html目录
 │  │  └─index.html            html根
-~~~
+```
 
 ## 其他
 - 完成基本的按需加载等常用开发功能
