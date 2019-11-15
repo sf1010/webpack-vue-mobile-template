@@ -31,6 +31,8 @@ npm run build
 │  ├─framework                webpack入口目录
 │  │  ├─App.vue               vue根组件
 │  │  └─index.js              webpack主入口js，实例化vue
+│  ├─layout                   布局页面文件夹
+│  │  └─App.vue               布局文件
 │  ├─pages                    vue页面目录
 │  │  ├─home                  页面目录（示例）
 │  │  │  ├─components         页面私有组件目录（推荐组件内再建文件夹，继续使用index命名vue文件）
