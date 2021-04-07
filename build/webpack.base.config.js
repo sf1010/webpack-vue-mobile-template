@@ -60,6 +60,7 @@ const config = {
       },
       {
         test: /\.(htm|html)$/i,
+        enforce: 'post',
         use: [
           'html-withimg-loader',
         ],
